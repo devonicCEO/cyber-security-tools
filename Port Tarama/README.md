@@ -14,7 +14,7 @@
 
 ```bash
 # Projeyi klonlayın
-git clone https://github.com/devonicCEO/Port-Tarama.git
+git clone https://github.com/devonicCEO/cyber-security-tools/Port Tarama.git
 cd Port-Tarama
 
 # Python 3.6+ gereklidir
@@ -92,4 +92,4 @@ Bu araç siber güvenlik eğitim amaçlıdır. Kullanıcı tüm yasal sorumluluk
 ---
 
 **Versiyon:** 1.0  
-**Son Güncelleme:** Şubat 2026
+**Son Güncelleme:** 10.06.2026

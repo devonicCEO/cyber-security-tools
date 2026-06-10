@@ -10,8 +10,8 @@ Projeye katkı sağlamak istediğiniz için teşekkür ederiz!
 2. **Kendi Bilgisayarınızda Klonlayın**
 
    ```bash
-   git clone https://github.com/devonicCEO/Port-Tarama.git
-   cd Port-Tarama
+   git clone https://github.com/devonicCEO/cyber-security-tools/Port Tarama.git
+   cd Port Tarama
    ```
 
 3. **Yeni Branch Oluşturun**

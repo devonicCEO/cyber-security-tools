@@ -14,6 +14,7 @@ target_ports = {
     4444: "Metasploit - Muhtemel bir Backdoor (Arka Kapı) veya Payload belirtisi!"
 }
 
+# ============== Header Banner =================
 print("===================================")
 print("=   devonicCEO Port Tarama v1.0   =")
 print("===================================")
@@ -25,9 +26,11 @@ print(" ")
 
 open_ports = []
 
+# ============ Ports ==============
 ports = [21, 22, 23, 25, 53, 80, 110, 443, 445, 3306, 3389, 4444, 8080, 8443, 31337, 6667]
 
 
+# =========== Scaning Loading ===========
 chars = ["/", "-", "\\", "|"]
 for i in range(20):
     sys.stdout.write(f"\rKritik Portlar Taraniyor.. {chars[i % len(chars)]}")
@@ -35,7 +38,7 @@ for i in range(20):
     time.sleep(0.1)
 print(" ")
 
-
+# ========== Output Scaning Ports ===========
 for port, info in target_ports.items():
     
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -57,6 +60,8 @@ for port, info in target_ports.items():
 
 print(" ")
 chars = ["/", "-", "\\", "|"]
+
+# ============ General Port Scaning and Output ============
 for i in range(20):
     sys.stdout.write(f"\rGenel Portlar Taraniyor.. {chars[i % len(chars)]}")
     sys.stdout.flush()
