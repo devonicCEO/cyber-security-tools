@@ -13,3 +13,5 @@
 <p align="center">
     <img src="Port Tarama/preview-1.png" style="max-width: 100%; max-height: 400px; object-fit: contain;" alt="Port Scaning Preview">
 </p>
+
+- [LICENSE](LICENSE)
