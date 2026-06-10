@@ -1,0 +1,11 @@
+# Port Tarama Aracı - Gereksinimler
+
+# Bu proje Python standart kütüphanelerini kullanır
+# Harici bir bağımlılığı bulunmamaktadır
+
+# Kullanılan modüller:
+# - socket 
+# - time 
+# - sys 
+
+# Python 3.6+ gereklidir
